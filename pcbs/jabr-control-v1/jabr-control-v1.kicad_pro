@@ -549,7 +549,80 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/CM5/ETH.TD_A_N": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_A_P": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_B_N": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_B_P": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_C_N": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_C_P": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_D_N": [
+        "MDI"
+      ],
+      "/CM5/ETH.TD_D_P": [
+        "MDI"
+      ],
+      "/CM5/ETH{MDI}": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/OSC_IN": [
+        "50Ω"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/OSC_OUT": [
+        "50Ω"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/RX_CLK": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/RX_CTL": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/RX_D0": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/RX_D1": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/RX_D2": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/RX_D3": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/TX_CLK": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/TX_CTL": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/TX_D0": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/TX_D1": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/TX_D2": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/TX_D3": [
+        "xMII"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/{RGMII}": [
+        "xMII"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "CLEARANCE",
@@ -635,12 +708,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -672,6 +799,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -699,27 +834,39 @@
     ],
     [
       "1d5b5326-5e18-44b7-8507-f118df052f59",
-      "M.2 E Key"
+      "M.2 E-Key"
     ],
     [
-      "7a23ea06-3a48-4c8b-a1af-badba9e1a127",
+      "7b833941-1960-4f0f-b1c6-b995a9864b5e",
       "PCIe MAC"
     ],
     [
-      "0f7dabd7-00ec-4cd3-b173-82586c8e938c",
-      "1000BASE-T1 PHY"
+      "ae7374e5-3d79-45a7-a1a6-e5f21fb2a45c",
+      "1000BASE-T1 Connector"
     ],
     [
       "1903ef66-84f8-4153-97de-afc87d6d458e",
       "MCU"
     ],
     [
-      "9e4cc40e-1b85-46ff-be45-c4800a75e0fe",
-      "1000BASE-T1 Connector"
+      "d93fedc6-4251-42e0-84b2-9bf0445840d2",
+      "1000BASE-T1 PHY"
     ],
     [
       "3f551047-3bb0-4f63-99e0-34fd9061d844",
       "Power"
+    ],
+    [
+      "adc0b005-3094-4656-96e7-4ee9fb2ab719",
+      "CM5IO"
+    ],
+    [
+      "3124e188-7d93-47d9-82c9-cb765ca396d3",
+      "PCIe to 1000BASE-T1"
+    ],
+    [
+      "c8847476-18c7-4518-a86a-3cbd7effb778",
+      "Power In"
     ]
   ],
   "text_variables": {}

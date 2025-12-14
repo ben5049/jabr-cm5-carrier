@@ -264,6 +264,95 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_entry
+		(at 88.9 71.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07576da8-8c1e-4d15-9643-11779609d8e6")
+	)
+	(bus_entry
+		(at 88.9 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2dda41-360a-43c6-92b8-2b72919459fb")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e967727-c9b7-4ae1-ba4f-0c651416fc30")
+	)
+	(bus
+		(pts
+			(xy 88.9 68.58) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de5fe5e-c906-42aa-b21d-83e76c5beb75")
+	)
+	(bus
+		(pts
+			(xy 86.36 68.58) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0298db3-c76e-4332-bc1d-d4bb6228db9b")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b946a03e-f17b-46c4-b578-ede1eae739c3")
+	)
+	(label "TRXN"
+		(at 93.98 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e11507-369d-4bc7-8e5d-df1ae2258fce")
+	)
+	(label "TRXP"
+		(at 93.98 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de99983e-5d97-4cea-8d03-d4c8264b2b56")
+	)
+	(hierarchical_label "{SPE}"
+		(shape bidirectional)
+		(at 86.36 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ac9eb33-9852-4014-96e3-700de3423d39")
+	)
 	(symbol
 		(lib_id "ETH-CONN:MSPE-J2L0-x00")
 		(at 208.28 68.58 0)
@@ -274,7 +363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cc532d4-b267-44ce-94f9-3675d223a831")
-		(property "Reference" "J8001"
+		(property "Reference" "J6001"
 			(at 208.28 63.5 0)
 			(effects
 				(font
@@ -370,33 +459,33 @@
 			)
 		)
 		(pin "MH3"
-			(uuid "20acbb9e-c951-4ce4-8f5a-b37b2e2c8f5b")
+			(uuid "5480e781-b054-4cff-b9b0-46d01fa86f16")
 		)
 		(pin "MH5"
-			(uuid "979c326d-6169-4396-9a47-fef1cd53ff5d")
+			(uuid "dbeb611b-eeee-47b6-a6c6-2a7ac8c955f8")
 		)
 		(pin "MH1"
-			(uuid "f31beed4-9c56-44ac-b5fe-b29f0b3542ec")
+			(uuid "59f3cf22-58ef-4428-a02a-9a4594834b8c")
 		)
 		(pin "MH6"
-			(uuid "c7ff373e-424a-45c4-a1b7-644d1b94979d")
+			(uuid "a3145cd1-b11d-47e2-9719-a7ccf4782379")
 		)
 		(pin "MH4"
-			(uuid "8c2a53dd-74b3-4f17-98ec-3fa08f46a125")
+			(uuid "ed4666e5-0975-443d-b3e1-b123c668ed0f")
 		)
 		(pin "MH2"
-			(uuid "8aae8436-5529-4e89-9391-1ee38dab1bb0")
+			(uuid "a04b898d-e4ec-4245-85e2-3e1f0dfeb8cb")
 		)
 		(pin "1"
-			(uuid "f6db477e-0404-4e3b-89c3-67d3742c2fdb")
+			(uuid "9bfba379-b501-490f-b597-334ac122e80b")
 		)
 		(pin "2"
-			(uuid "650785e2-5f2a-432a-8974-e9089824f090")
+			(uuid "314af130-a27c-496f-a9b6-c8840b334a8b")
 		)
 		(instances
-			(project ""
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/9e4cc40e-1b85-46ff-be45-c4800a75e0fe"
-					(reference "J8001")
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/ae7374e5-3d79-45a7-a1a6-e5f21fb2a45c"
+					(reference "J6001")
 					(unit 1)
 				)
 			)

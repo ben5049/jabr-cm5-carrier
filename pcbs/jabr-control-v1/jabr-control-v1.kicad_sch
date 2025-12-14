@@ -5,50 +5,190 @@
 	(uuid "f91ec272-d09a-4038-bbbb-962739a92c51")
 	(paper "A4")
 	(lib_symbols)
-	(sheet
-		(at 190.5 101.6)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+	(junction
+		(at 210.82 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00caaa70-4afa-4008-a63b-d46dc98fa616")
+	)
+	(junction
+		(at 208.28 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2a7974-d79a-4603-b8d3-99088120a935")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 215.9 55.88)
+		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(fill
-			(color 0 0 0 0.0000)
+		(uuid "036ab37a-bb75-4910-b49f-5604c2f7c7c6")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 165.1 83.82)
 		)
-		(uuid "0f7dabd7-00ec-4cd3-b173-82586c8e938c")
-		(property "Sheetname" "1000BASE-T1 PHY"
-			(at 190.5 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
-			(at 190.5 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
+		(uuid "0d972d24-0955-4aef-bfdd-03fd97e081d3")
+	)
+	(bus
+		(pts
+			(xy 139.7 86.36) (xy 165.1 86.36)
 		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "6")
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "20280898-e4f7-4df9-9a07-08e74a0e5e50")
+	)
+	(bus
+		(pts
+			(xy 88.9 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20da2f6b-bc9b-4b8e-93cf-25b421b26551")
+	)
+	(bus
+		(pts
+			(xy 88.9 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ebcfe-3034-4598-a4f2-1da06da2ce35")
+	)
+	(bus
+		(pts
+			(xy 88.9 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34197787-48e1-404a-9ab2-dfc6d6131e63")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4320d526-1962-49d2-b1eb-3e82d11b3d88")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598b42a8-f472-48bd-a5fe-857c01af33ce")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5991fdb7-72f3-4cc7-887b-7f82c55de478")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ed1d3b-7ac8-4c50-b2d0-ca3ff66a0ab5")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81532308-30ba-49dc-8b6e-58ed12fb59a3")
+	)
+	(bus
+		(pts
+			(xy 190.5 101.6) (xy 215.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8959948c-f218-4079-bd3f-c0ac701905f7")
+	)
+	(wire
+		(pts
+			(xy 215.9 91.44) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec69d1b-4fd8-4f38-89f9-5874cc850266")
+	)
+	(bus
+		(pts
+			(xy 190.5 71.12) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8140ade-5c37-41b0-8bbc-c81e745a7ca0")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 215.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9445dcc-ae84-48db-acb6-6d6741c18265")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8641eda-1418-4ab7-b769-1fb6be2f0e17")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 208.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5950d1-ba66-4f53-9d25-b5966b90467a")
 	)
 	(sheet
-		(at 88.9 139.7)
+		(at 165.1 127)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +204,7 @@
 		)
 		(uuid "1903ef66-84f8-4153-97de-afc87d6d458e")
 		(property "Sheetname" "MCU"
-			(at 88.9 138.9884 0)
+			(at 165.1 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +213,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 88.9 165.6846 0)
+			(at 165.1 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +230,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 50.8)
+		(at 215.9 38.1)
 		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -105,8 +245,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1d5b5326-5e18-44b7-8507-f118df052f59")
-		(property "Sheetname" "M.2 E Key"
-			(at 139.7 50.0884 0)
+		(property "Sheetname" "M.2 E-Key"
+			(at 215.9 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +255,52 @@
 			)
 		)
 		(property "Sheetfile" "m-2-e-key.kicad_sch"
-			(at 139.7 89.4846 0)
+			(at 215.9 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 215.9 71.12 180)
+			(uuid "c73b9134-93a4-4e2d-a261-f972b47ebe40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_RST}" input
+			(at 215.9 68.58 180)
+			(uuid "fc5eced7-c5b5-4f70-b76f-c5493af9f730")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" output
+			(at 215.9 55.88 180)
+			(uuid "8f1b9aae-c501-4c44-9c35-3ea57c272ac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" output
+			(at 215.9 53.34 180)
+			(uuid "456508f3-2419-4e3f-87c7-7afeeff960b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -132,7 +312,99 @@
 		)
 	)
 	(sheet
-		(at 241.3 50.8)
+		(at 215.9 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3124e188-7d93-47d9-82c9-cb765ca396d3")
+		(property "Sheetname" "PCIe to 1000BASE-T1"
+			(at 215.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-to-1000base-t1.kicad_sch"
+			(at 215.9 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 215.9 101.6 180)
+			(uuid "e5ae1406-eb19-4124-9cd7-fe19d06781e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" output
+			(at 215.9 91.44 180)
+			(uuid "e89beca8-a2fc-44d8-a65e-ffa9784d89cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" output
+			(at 215.9 93.98 180)
+			(uuid "3f86c4ab-ab17-4d54-bebf-51c0188fa0bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_RST}" input
+			(at 215.9 99.06 180)
+			(uuid "7cb925b0-4df3-4bae-be76-5038b11c1735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 215.9 111.76 180)
+			(uuid "5015e4a4-62a9-4d76-aa2d-143caf205aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 106.68)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +420,7 @@
 		)
 		(uuid "3f551047-3bb0-4f63-99e0-34fd9061d844")
 		(property "Sheetname" "Power"
-			(at 241.3 50.0884 0)
+			(at 63.5 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +429,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 241.3 76.7846 0)
+			(at 63.5 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,8 +446,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 76.2)
-		(size 25.4 50.8)
+		(at 165.1 63.5)
+		(size 25.4 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +462,7 @@
 		)
 		(uuid "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b")
 		(property "Sheetname" "PCIe Switch"
-			(at 88.9 75.4884 0)
+			(at 165.1 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,12 +471,72 @@
 			)
 		)
 		(property "Sheetfile" "pcie-switch.kicad_sch"
-			(at 88.9 127.5846 0)
+			(at 165.1 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PORT0{PCIE}" bidirectional
+			(at 165.1 86.36 180)
+			(uuid "e25349fe-b634-4b66-adbe-71aa2fccfe20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PORT1{PCIE}" bidirectional
+			(at 190.5 71.12 0)
+			(uuid "eca74e7e-781c-4b99-b3c7-cb42f02622c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PORT2{PCIE}" bidirectional
+			(at 190.5 101.6 0)
+			(uuid "1a9314ef-3dc5-4350-9a0b-91b7af2a4e7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT1_RST}" output
+			(at 190.5 68.58 0)
+			(uuid "33af4072-9858-44a5-80bb-60dbd484761b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT2_RST}" output
+			(at 190.5 99.06 0)
+			(uuid "307070af-333f-4583-a683-392fac4d0c36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST}" input
+			(at 165.1 83.82 180)
+			(uuid "f503a7df-e944-4c14-874a-2ea975ee8a06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -216,7 +548,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 50.8)
+		(at 114.3 38.1)
 		(size 25.4 114.3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +564,7 @@
 		)
 		(uuid "6befb881-6ab4-49eb-a195-35f4f02473c7")
 		(property "Sheetname" "CM5"
-			(at 38.1 50.0884 0)
+			(at 114.3 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,12 +573,102 @@
 			)
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
-			(at 38.1 165.6846 0)
+			(at 114.3 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 139.7 86.36 0)
+			(uuid "4df17612-f77c-4b64-abd1-6b96c94ade48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" input
+			(at 139.7 53.34 0)
+			(uuid "f8984c03-25cc-4ff1-9d3a-09490db0de04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_RST}" output
+			(at 139.7 83.82 0)
+			(uuid "9f3ad3ec-e8e4-4f90-a6d6-2068340dab46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_PWR_EN" output
+			(at 114.3 109.22 180)
+			(uuid "905c75a8-4708-47ec-b4f2-84c9ad8fc59d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" input
+			(at 139.7 55.88 0)
+			(uuid "07fa324e-e543-4e63-8fc8-37b87ad575ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_LED[2..3]" output
+			(at 114.3 43.18 180)
+			(uuid "2fcf9ae6-0f94-4a4d-86e7-28694c2a4946")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH{MDI}" bidirectional
+			(at 114.3 40.64 180)
+			(uuid "85cc4cc7-1ad9-4bd7-b858-b6568f0f2c26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 114.3 63.5 180)
+			(uuid "817c6da3-49c2-4b04-b5e5-c532c4249467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PMIC_EN" bidirectional
+			(at 114.3 114.3 180)
+			(uuid "403dc8c8-c92e-452e-abb2-72e5359b9c3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -258,8 +680,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 101.6)
-		(size 25.4 25.4)
+		(at 63.5 38.1)
+		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -272,9 +694,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7a23ea06-3a48-4c8b-a1af-badba9e1a127")
-		(property "Sheetname" "PCIe MAC"
-			(at 139.7 100.8884 0)
+		(uuid "adc0b005-3094-4656-96e7-4ee9fb2ab719")
+		(property "Sheetname" "CM5IO"
+			(at 63.5 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,8 +704,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pcie-mac.kicad_sch"
-			(at 139.7 127.5846 0)
+		(property "Sheetfile" "cm5io.kicad_sch"
+			(at 63.5 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,52 +713,40 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 241.3 101.6)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9e4cc40e-1b85-46ff-be45-c4800a75e0fe")
-		(property "Sheetname" "1000BASE-T1 Connector"
-			(at 241.3 100.8884 0)
+		(pin "ETH_LED[2..3]" input
+			(at 88.9 43.18 0)
+			(uuid "63dfdccb-f8a5-4543-ab8b-4c0aa068d43b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Sheetfile" "1000base-t1-connector.kicad_sch"
-			(at 241.3 127.5846 0)
+		(pin "ETH{MDI}" bidirectional
+			(at 88.9 40.64 0)
+			(uuid "8e47ab3e-c146-4b4a-9b6e-1ef9426ee7cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 88.9 63.5 0)
+			(uuid "e4b39588-3275-4772-866a-2e5275500a98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "8")
+					(page "10")
 				)
 			)
 		)

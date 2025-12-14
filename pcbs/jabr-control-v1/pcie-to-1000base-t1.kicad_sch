@@ -1,0 +1,469 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d133eae5-badb-468c-aa77-6ca9a54ace01")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 73.66 96.52) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0730bfed-894c-4318-b7c7-dc896db9d2a5")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24384f9f-3b13-468d-8989-9d8013462d8c")
+	)
+	(wire
+		(pts
+			(xy 73.66 83.82) (xy 76.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b249975-b845-4a0c-a1ae-b48f88edfdf6")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea6b086-9aab-4801-8e22-2d50fd793e81")
+	)
+	(bus
+		(pts
+			(xy 101.6 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f127732-7715-44c1-8d9b-1a89813a6901")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3d2a9f-fad5-4844-8b35-c37c8d369d90")
+	)
+	(bus
+		(pts
+			(xy 101.6 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c49b69c-239b-4908-867b-8131bf427078")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06513dd-5013-410e-8fa3-23a27e239831")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63512c2-95c7-48b4-992b-3ec5776d955f")
+	)
+	(bus
+		(pts
+			(xy 152.4 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72599c1-2013-44da-95fc-0cf2566797b6")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2579d9b-7633-48c7-ae7a-e607ac367314")
+	)
+	(hierarchical_label "~{PCIE_WAKE}"
+		(shape output)
+		(at 73.66 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d59f627-1e66-4834-a08b-fb138d84008c")
+	)
+	(hierarchical_label "~{PCIE_CLKREQ}"
+		(shape output)
+		(at 73.66 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b9f2f4b-a3a6-4c42-8808-afb919de9846")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 73.66 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82b76cf8-0baf-4a77-9f4e-94b61d416aa0")
+	)
+	(hierarchical_label "~{PCIE_RST}"
+		(shape input)
+		(at 73.66 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c16f6da8-23ff-4790-b9f6-4f017ec6cefd")
+	)
+	(hierarchical_label "{PCIE}"
+		(shape bidirectional)
+		(at 73.66 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e31e8beb-f788-4eb3-b669-6867eba67550")
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b833941-1960-4f0f-b1c6-b995a9864b5e")
+		(property "Sheetname" "PCIe MAC"
+			(at 76.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-mac.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 76.2 96.52 180)
+			(uuid "36a8c3ea-7c5b-4572-8e87-253d52f336c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 76.2 78.74 180)
+			(uuid "9978b0f1-1657-4a9e-82b1-bf3abf9225a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CLKREQ}" output
+			(at 76.2 86.36 180)
+			(uuid "cf7c1d6b-9ecc-4a1b-9900-e684c93a09b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{WAKE}" output
+			(at 76.2 88.9 180)
+			(uuid "daddb679-efae-4001-bdd6-053aff8fc6ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RGMII}" bidirectional
+			(at 101.6 78.74 0)
+			(uuid "d16d2874-faaf-4271-a9bd-50d764d39f1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SMI}" bidirectional
+			(at 101.6 86.36 0)
+			(uuid "5e6968cc-ce22-4c4f-a37a-732d04e51604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PHY_INT}" input
+			(at 101.6 91.44 0)
+			(uuid "ab89ee04-750a-47ba-91c3-53a08c5ab5d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PHY_RST}" output
+			(at 101.6 88.9 0)
+			(uuid "789aa75b-22f8-4fce-b35e-bb8c80a25fba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK125" input
+			(at 101.6 81.28 0)
+			(uuid "5b970c5c-f0bd-45f7-b9e9-982400f4c323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PERST}" input
+			(at 76.2 83.82 180)
+			(uuid "ce3cdb7e-e777-435a-a175-c65e672193e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae7374e5-3d79-45a7-a1a6-e5f21fb2a45c")
+		(property "Sheetname" "1000BASE-T1 Connector"
+			(at 177.8 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-connector.kicad_sch"
+			(at 177.8 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SPE}" bidirectional
+			(at 177.8 78.74 180)
+			(uuid "54ebe693-dee8-45e7-b8b5-6f4e2dca6786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d93fedc6-4251-42e0-84b2-9bf0445840d2")
+		(property "Sheetname" "1000BASE-T1 PHY"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{RGMII}" bidirectional
+			(at 127 78.74 180)
+			(uuid "5149155b-a60d-4baf-9269-dd3484caa30b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SMI}" bidirectional
+			(at 127 86.36 180)
+			(uuid "452e280b-929a-4060-89de-f06f77d7ee75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT}" output
+			(at 127 91.44 180)
+			(uuid "1336c480-1576-4507-b93a-a799e7c9e4ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 127 88.9 180)
+			(uuid "aca5b895-7c9c-418b-af73-9bfef4ae8a27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK125" output
+			(at 127 81.28 180)
+			(uuid "d4e995d2-2fdb-4874-94d1-4a74c59973de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPE}" bidirectional
+			(at 152.4 78.74 0)
+			(uuid "ccbb6e82-df7b-4487-ab9d-6c0f149408c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3"
+					(page "8")
+				)
+			)
+		)
+	)
+)
