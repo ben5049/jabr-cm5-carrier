@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SOM")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/SOM.kicad_sym")(options "")(descr ""))
+  (lib (name "PCIE-CONN")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/PCIE-CONN.kicad_sym")(options "")(descr ""))
+  (lib (name "PCIE-FABRIC")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/PCIE-FABRIC.kicad_sym")(options "")(descr ""))
+  (lib (name "ETH-CONN")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/ETH-CONN.kicad_sym")(options "")(descr ""))
+  (lib (name "ETH-PHY")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/ETH-PHY.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/STM32.kicad_sym")(options "")(descr ""))
+)
