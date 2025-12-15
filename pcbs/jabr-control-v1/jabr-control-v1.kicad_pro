@@ -577,6 +577,27 @@
       "/CM5/ETH{MDI}": [
         "MDI"
       ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/CMC_TRXN": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/CMC_TRXP": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/CONN_TRXN": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/CONN_TRXP": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/TRXN": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/TRXP": [
+        "MDI"
+      ],
+      "/PCIe to 1000BASE-T1/1000BASE-T1 Connector/{SPE}": [
+        "MDI"
+      ],
       "/PCIe to 1000BASE-T1/1000BASE-T1 PHY/OSC_IN": [
         "50Ω"
       ],
@@ -867,6 +888,14 @@
     [
       "c8847476-18c7-4518-a86a-3cbd7effb778",
       "Power In"
+    ],
+    [
+      "a1f2745a-98e5-40f5-b635-cc8a6d17ac78",
+      "5V Regulator"
+    ],
+    [
+      "52a41b87-8503-44b7-832c-aae66b3851bb",
+      "3V3 Regulators"
     ]
   ],
   "text_variables": {}

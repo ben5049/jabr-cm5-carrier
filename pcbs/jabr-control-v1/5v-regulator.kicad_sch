@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "12421af7-eaed-4d74-93f5-453717f165d3")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Find VIN -> 5V, 5A buck"
+		(exclude_from_sim no)
+		(at 152.4 119.38 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "437b83aa-3697-427d-a4f5-4ba73cc4ff46")
+	)
+)

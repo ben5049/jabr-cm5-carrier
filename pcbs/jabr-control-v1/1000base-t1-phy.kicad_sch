@@ -2491,107 +2491,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND1"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(bus_alias "CAN"
 		(members "TX" "RX")
@@ -4514,7 +4413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
+		(lib_id "power:GND")
 		(at 160.02 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -4524,7 +4423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad5ba6f1-6c15-45a4-b506-a5f59892f956")
-		(property "Reference" "#PWR02928"
+		(property "Reference" "#PWR2928"
 			(at 160.02 146.05 0)
 			(effects
 				(font
@@ -4533,7 +4432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 160.02 144.78 0)
 			(effects
 				(font
@@ -4559,7 +4458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 139.7 0)
 			(effects
 				(font
@@ -4574,7 +4473,7 @@
 		(instances
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/d93fedc6-4251-42e0-84b2-9bf0445840d2"
-					(reference "#PWR02928")
+					(reference "#PWR2928")
 					(unit 1)
 				)
 			)
@@ -4788,7 +4687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
+		(lib_id "power:GND")
 		(at 149.86 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -4798,7 +4697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d339123a-8cd3-4651-9964-5c4257b59f38")
-		(property "Reference" "#PWR02929"
+		(property "Reference" "#PWR2929"
 			(at 149.86 146.05 0)
 			(effects
 				(font
@@ -4807,7 +4706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 149.86 144.78 0)
 			(effects
 				(font
@@ -4833,7 +4732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 139.7 0)
 			(effects
 				(font
@@ -4848,14 +4747,14 @@
 		(instances
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/d93fedc6-4251-42e0-84b2-9bf0445840d2"
-					(reference "#PWR02929")
+					(reference "#PWR2929")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
+		(lib_id "power:GND")
 		(at 139.7 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -4865,7 +4764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e728f54e-1018-4eac-8d58-b10dc2796dbe")
-		(property "Reference" "#PWR02930"
+		(property "Reference" "#PWR2930"
 			(at 139.7 146.05 0)
 			(effects
 				(font
@@ -4874,7 +4773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 139.7 144.78 0)
 			(effects
 				(font
@@ -4900,7 +4799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 139.7 0)
 			(effects
 				(font
@@ -4915,7 +4814,7 @@
 		(instances
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/d93fedc6-4251-42e0-84b2-9bf0445840d2"
-					(reference "#PWR02930")
+					(reference "#PWR2930")
 					(unit 1)
 				)
 			)
