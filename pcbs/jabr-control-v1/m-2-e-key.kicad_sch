@@ -141,6 +141,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna_Shield"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna with extra pin for shielding"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_Shield_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1705,6 +1907,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF-CONN:U.FL-R-SMT-K_895"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U.FL-R-SMT-K_895"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:UFLRSMTK895"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0480-0761-0-95&productname=U.FL-R-SMT-K(895)&series=U.FL-K&documenttype=2DDrawing&lang=en&documentid=U.FL-R-SMT-K(895)_2D_4800761095_ENG"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U.FL-R-SMT-K_895_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "U.FL-R-SMT-K_895_1_1"
+				(arc
+					(start 1.1916 -0.6311)
+					(mid -0.327 -1.308)
+					(end -1.3484 0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.3484 -0.0039)
+					(mid -0.327 1.308)
+					(end 1.1916 0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1812,7 +2165,7 @@
 	)
 	(text "2242 Mouting hole"
 		(exclude_from_sim no)
-		(at 222.25 95.25 0)
+		(at 204.47 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1820,9 +2173,19 @@
 		)
 		(uuid "2cc367b6-639b-4f7c-812a-5ec223e3f7d7")
 	)
+	(text "U.FL to SMA converters"
+		(exclude_from_sim no)
+		(at 226.06 30.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2f46cce9-eb8c-49f7-ae1e-243cbf6c93fb")
+	)
 	(text "2230 Mouting hole"
 		(exclude_from_sim no)
-		(at 222.25 72.39 0)
+		(at 204.47 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1832,7 +2195,7 @@
 	)
 	(text_box "Look into proper M.2 mouting hole w/ thread"
 		(exclude_from_sim no)
-		(at 261.62 81.28 0)
+		(at 243.84 101.6 0)
 		(size 20.32 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1854,7 +2217,7 @@
 	)
 	(text_box "Get better susclk"
 		(exclude_from_sim no)
-		(at 213.36 134.62 0)
+		(at 231.14 144.78 0)
 		(size 20.32 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2032,13 +2395,33 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 99.06) (xy 238.76 101.6)
+			(xy 213.36 48.26) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a93651-9122-4e83-9a44-bfd24daf804d")
+	)
+	(wire
+		(pts
+			(xy 220.98 119.38) (xy 220.98 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0785530d-9d02-4765-b30a-c2ff07fce6c0")
+	)
+	(wire
+		(pts
+			(xy 213.36 68.58) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6cf7da-2246-4be9-b826-8ece36cd6d15")
 	)
 	(bus
 		(pts
@@ -2059,6 +2442,16 @@
 			(type default)
 		)
 		(uuid "120ef53d-a40e-4fae-bae4-5e95329a9de5")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 233.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb0ddbe-fa6f-431e-94bd-69d395cac7fe")
 	)
 	(wire
 		(pts
@@ -2099,6 +2492,26 @@
 			(type default)
 		)
 		(uuid "487d96cf-1912-4660-bbe2-8b91243158a2")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 213.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48da6d27-f3a2-4fd3-83fa-16f4545af697")
+	)
+	(wire
+		(pts
+			(xy 220.98 68.58) (xy 233.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac8ac63-0393-4425-9eed-76cb894262f3")
 	)
 	(wire
 		(pts
@@ -2152,6 +2565,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 48.26) (xy 220.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc50814-c7be-40ba-b422-d8cfeba32605")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 236.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce70879-f56c-4ffa-a1e2-9d03883b1b77")
+	)
+	(wire
+		(pts
 			(xy 66.04 63.5) (xy 99.06 63.5)
 		)
 		(stroke
@@ -2169,6 +2602,16 @@
 			(type default)
 		)
 		(uuid "81652139-4d4a-41c6-8303-4be63df33872")
+	)
+	(wire
+		(pts
+			(xy 236.22 50.8) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f8fe3b-1f0a-4b09-a97f-595fdfc906cf")
 	)
 	(bus
 		(pts
@@ -2192,6 +2635,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 48.26) (xy 213.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b322e9-32af-43a9-bc65-6056b8691f2c")
+	)
+	(wire
+		(pts
 			(xy 60.96 48.26) (xy 99.06 48.26)
 		)
 		(stroke
@@ -2202,13 +2655,33 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 76.2) (xy 238.76 78.74)
+			(xy 220.98 96.52) (xy 220.98 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c41cb3f-9f5d-48bd-8ba1-0ad1c11d44f8")
+	)
+	(wire
+		(pts
+			(xy 233.68 68.58) (xy 233.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0beb46-2e21-4c9f-99fb-43bb7316652a")
+	)
+	(wire
+		(pts
+			(xy 236.22 66.04) (xy 236.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f32e6d4-0b46-4952-aefa-0b115b34791c")
 	)
 	(bus
 		(pts
@@ -2259,6 +2732,16 @@
 			(type default)
 		)
 		(uuid "cb83b649-4c04-47c6-aa75-222ecbdad848")
+	)
+	(wire
+		(pts
+			(xy 213.36 50.8) (xy 236.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5a7f21-df06-4943-b7aa-7f629a548299")
 	)
 	(wire
 		(pts
@@ -2340,6 +2823,26 @@
 		)
 		(uuid "76aa3717-6926-48a9-aa07-f136de2893c3")
 	)
+	(label "RF1"
+		(at 223.52 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76fd5610-25f2-4ee8-8272-d7668060a206")
+	)
+	(label "RF2_GND"
+		(at 223.52 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "771b457e-8003-4a8c-8fc8-c8abdb6fba8e")
+	)
 	(label "TX_P"
 		(at 68.58 63.5 0)
 		(effects
@@ -2350,6 +2853,16 @@
 		)
 		(uuid "c2e4cdb1-e78e-4eaf-bf2a-43baf523912d")
 	)
+	(label "RF1_GND"
+		(at 223.52 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdab28ff-d724-4e89-9c8a-dec17f3b5ef2")
+	)
 	(label "USB.DP"
 		(at 86.36 142.24 0)
 		(effects
@@ -2359,6 +2872,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1cd922e-ae87-4964-a5b6-5a8e59b0e4ea")
+	)
+	(label "RF2"
+		(at 223.52 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff42c3dd-395d-43fe-a349-42973ab97a00")
 	)
 	(hierarchical_label "~{PCIE_CLKREQ}"
 		(shape output)
@@ -2414,6 +2937,75 @@
 			(justify right)
 		)
 		(uuid "aa7fdde9-adf1-4e60-afd5-9fbd162760dc")
+	)
+	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 233.68 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08484663-e704-45f3-a03e-dd3b18c87461")
+		(property "Reference" "AE401"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMPCB.SMAFSTJ.B.HT"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:sma_edge_mount"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbfa5aed-0179-4935-8fa6-f9518bd9cfdc")
+		)
+		(pin "2"
+			(uuid "9f41b4b9-8ef4-45c7-93e7-9333e5cb56bd")
+		)
+		(instances
+			(project ""
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
+					(reference "AE401")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCIE-CONN:M.2 Connector E")
@@ -2863,8 +3455,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 233.68 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ce7e2d1-2528-4c25-9bac-a13f7137b87c")
+		(property "Reference" "AE402"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMPCB.SMAFSTJ.B.HT"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:sma_edge_mount"
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b750de72-5d85-400a-aecb-41d9aded69ef")
+		)
+		(pin "2"
+			(uuid "88586b45-46c9-47fa-baf1-2a27d515498e")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
+					(reference "AE402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CM5IO:ASEK-32.768KHZ-L-R-T")
-		(at 198.12 132.08 0)
+		(at 210.82 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2873,7 +3534,7 @@
 		(fields_autoplaced yes)
 		(uuid "52312e93-13e5-46ce-8d2f-9f8d631041e0")
 		(property "Reference" "U7"
-			(at 198.12 122.555 0)
+			(at 210.82 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +3542,7 @@
 			)
 		)
 		(property "Value" "ASEK-32.768KHZ-L-R-T"
-			(at 198.12 125.095 0)
+			(at 210.82 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +3550,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 199.39 140.97 0)
+			(at 212.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +3559,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/Oscillators/ASEK.pdf"
-			(at 198.12 143.51 0)
+			(at 210.82 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 132.08 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3577,7 @@
 			)
 		)
 		(property "Field5" "ASEK-32.768KHZ-L-R-T"
-			(at 198.12 132.08 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3586,7 @@
 			)
 		)
 		(property "Field6" "ASEK-32.768KHZ-L-R-T"
-			(at 198.12 132.08 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +3595,7 @@
 			)
 		)
 		(property "Field7" "abracon"
-			(at 198.12 132.08 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +3604,7 @@
 			)
 		)
 		(property "Part Description" "32KHz Xtal oscilator"
-			(at 198.12 132.08 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,8 +3634,162 @@
 		)
 	)
 	(symbol
+		(lib_id "RF-CONN:U.FL-R-SMT-K_895")
+		(at 218.44 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62850359-964f-4356-a74a-ab03a7b4e349")
+		(property "Reference" "J402"
+			(at 218.9595 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL-R-SMT-K_895"
+			(at 218.9595 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:UFLRSMTK895"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0480-0761-0-95&productname=U.FL-R-SMT-K(895)&series=U.FL-K&documenttype=2DDrawing&lang=en&documentid=U.FL-R-SMT-K(895)_2D_4800761095_ENG"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b0f440e-1762-4950-a16c-b300a37de1c2")
+		)
+		(pin "2"
+			(uuid "844fa1b8-ffd6-462f-83bd-ba2c0eb7dd24")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
+					(reference "J402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF-CONN:U.FL-R-SMT-K_895")
+		(at 218.44 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79575321-7cc4-42ac-b80f-661973f8388e")
+		(property "Reference" "J401"
+			(at 218.9595 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL-R-SMT-K_895"
+			(at 218.9595 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:UFLRSMTK895"
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0480-0761-0-95&productname=U.FL-R-SMT-K(895)&series=U.FL-K&documenttype=2DDrawing&lang=en&documentid=U.FL-R-SMT-K(895)_2D_4800761095_ENG"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 218.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f2ecfe3-5f82-4f8e-94f0-c18ac89056de")
+		)
+		(pin "2"
+			(uuid "62b41b77-236e-4777-bc35-ac572f7f5574")
+		)
+		(instances
+			(project ""
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
+					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 238.76 96.52 0)
+		(at 220.98 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2983,7 +3798,7 @@
 		(fields_autoplaced yes)
 		(uuid "86fb431d-0d47-4f41-ad8f-8b5799d6616e")
 		(property "Reference" "H4002"
-			(at 241.3 93.9799 0)
+			(at 223.52 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3807,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 241.3 96.5199 0)
+			(at 223.52 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3816,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 238.76 96.52 0)
+			(at 220.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 96.52 0)
+			(at 220.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3834,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 238.76 96.52 0)
+			(at 220.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 78.74 0)
+		(at 220.98 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3050,7 +3865,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd85ab45-95bf-4427-93e9-a64037239d10")
 		(property "Reference" "#PWR04004"
-			(at 238.76 85.09 0)
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 83.82 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 78.74 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 78.74 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 78.74 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,7 +3922,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 238.76 73.66 0)
+		(at 220.98 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3116,7 +3931,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0ac014b-8eef-4b39-8a5a-3d5067da78d7")
 		(property "Reference" "H4001"
-			(at 241.3 71.1199 0)
+			(at 223.52 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3940,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 241.3 73.6599 0)
+			(at 223.52 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3949,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 238.76 73.66 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 73.66 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3967,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 238.76 73.66 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3989,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 101.6 0)
+		(at 220.98 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3183,7 +3998,7 @@
 		(fields_autoplaced yes)
 		(uuid "e40f8bda-0d0a-4623-bb72-da7ed3eac5b1")
 		(property "Reference" "#PWR04003"
-			(at 238.76 107.95 0)
+			(at 220.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +4007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 106.68 0)
+			(at 220.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +4015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 101.6 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 101.6 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +4033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 101.6 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

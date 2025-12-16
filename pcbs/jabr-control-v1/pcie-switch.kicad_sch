@@ -6138,6 +6138,28 @@
 		)
 		(uuid "4057e24b-ffcc-451a-8f80-8be2f7a0e115")
 	)
+	(text_box "CHANGE TO ASM1182e"
+		(exclude_from_sim no)
+		(at 83.82 12.7 0)
+		(size 45.72 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "53c509fb-975c-427d-9f39-6d9673bfdf0d")
+	)
 	(text_box "3V3"
 		(exclude_from_sim no)
 		(at 124.46 43.18 0)

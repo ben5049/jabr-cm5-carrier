@@ -3522,8 +3522,8 @@
 	)
 	(text_box "DUPLEX = VDDARIO means full duplex"
 		(exclude_from_sim no)
-		(at 205.74 30.48 0)
-		(size 17.78 7.62)
+		(at 236.22 38.1 0)
+		(size 22.86 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3536,6 +3536,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "814e1e85-bc1b-45f6-864d-c235c5472fa1")
 	)
@@ -3555,7 +3556,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
 		(uuid "9ae3ba4a-f374-457a-b21f-d9f26d17307d")
 	)

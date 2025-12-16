@@ -45,6 +45,16 @@
 		)
 		(uuid "3ea6b086-9aab-4801-8e22-2d50fd793e81")
 	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c6397d-a2aa-4f36-a67c-1d1e06f9f02b")
+	)
 	(bus
 		(pts
 			(xy 101.6 86.36) (xy 127 86.36)
@@ -147,6 +157,17 @@
 			(justify right)
 		)
 		(uuid "82b76cf8-0baf-4a77-9f4e-94b61d416aa0")
+	)
+	(hierarchical_label "INH"
+		(shape output)
+		(at 154.94 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a313b831-369d-4d25-a6e2-42bc4f4be1c1")
 	)
 	(hierarchical_label "~{PCIE_RST}"
 		(shape input)
@@ -451,6 +472,16 @@
 		(pin "{SPE}" bidirectional
 			(at 152.4 78.74 0)
 			(uuid "ccbb6e82-df7b-4487-ab9d-6c0f149408c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INH" output
+			(at 152.4 86.36 0)
+			(uuid "237ab79d-d5af-4a5b-898b-c22a7a6a9543")
 			(effects
 				(font
 					(size 1.27 1.27)

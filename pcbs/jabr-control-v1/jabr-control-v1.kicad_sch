@@ -380,13 +380,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 175.26) (xy 73.66 177.8)
+			(xy 139.7 116.84) (xy 215.9 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41e71b2d-2825-466a-9c22-eee026cf1865")
+		(uuid "40b40c8d-83cf-4b9b-a232-e3c9df62cb68")
 	)
 	(wire
 		(pts
@@ -427,6 +427,16 @@
 			(type default)
 		)
 		(uuid "78ed1d3b-7ac8-4c50-b2d0-ca3ff66a0ab5")
+	)
+	(wire
+		(pts
+			(xy 88.9 109.22) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796f17a7-299b-4236-8310-165e7643dcec")
 	)
 	(wire
 		(pts
@@ -497,6 +507,16 @@
 			(type default)
 		)
 		(uuid "d9445dcc-ae84-48db-acb6-6d6741c18265")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e067e56d-8177-42bb-b50b-8098f65fe33f")
 	)
 	(wire
 		(pts
@@ -652,72 +672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PWR-SYM:SHIELD")
-		(at 73.66 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bc99608-e0a7-43c2-b58f-1818ce1c21fc")
-		(property "Reference" "#PWR0108"
-			(at 73.66 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SHIELD"
-			(at 73.533 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bccbd6a2-274a-4ab9-8bd1-af6ea1e4c0ec")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 53.34 172.72 0)
 		(unit 1)
@@ -779,73 +733,6 @@
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 73.66 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad826c95-ac9f-4d64-add4-ea5fcbfd39ad")
-		(property "Reference" "H104"
-			(at 76.2 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2.5"
-			(at 76.2 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 73.66 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 73.66 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4b162c4-8ab8-4ee3-80e2-b0bea047b24d")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -1184,48 +1071,6 @@
 		)
 	)
 	(sheet
-		(at 165.1 127)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1903ef66-84f8-4153-97de-afc87d6d458e")
-		(property "Sheetname" "MCU"
-			(at 165.1 126.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mcu.kicad_sch"
-			(at 165.1 152.9846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 215.9 38.1)
 		(size 25.4 38.1)
 		(exclude_from_sim no)
@@ -1309,7 +1154,7 @@
 	)
 	(sheet
 		(at 215.9 88.9)
-		(size 25.4 25.4)
+		(size 25.4 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1333,7 +1178,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-to-1000base-t1.kicad_sch"
-			(at 215.9 114.8846 0)
+			(at 215.9 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,8 +1227,18 @@
 			)
 		)
 		(pin "~{RST}" input
-			(at 215.9 111.76 180)
+			(at 215.9 116.84 180)
 			(uuid "5015e4a4-62a9-4d76-aa2d-143caf205aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INH" output
+			(at 215.9 129.54 180)
+			(uuid "cfd24134-0593-4cb4-9aa6-a9af046aca31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,6 +1286,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3_M2_EN" input
+			(at 88.9 109.22 0)
+			(uuid "4d46a761-13db-41d7-8a4a-5d8a484a1fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INH" input
+			(at 88.9 129.54 0)
+			(uuid "db598e01-6d84-4c76-a563-de85668baf8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1545,7 +1420,7 @@
 	)
 	(sheet
 		(at 114.3 38.1)
-		(size 25.4 114.3)
+		(size 25.4 81.28)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1569,7 +1444,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
-			(at 114.3 152.9846 0)
+			(at 114.3 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,14 +1532,24 @@
 				(justify left)
 			)
 		)
-		(pin "PMIC_EN" bidirectional
-			(at 114.3 114.3 180)
-			(uuid "403dc8c8-c92e-452e-abb2-72e5359b9c3c")
+		(pin "VBUS_EN" output
+			(at 114.3 66.04 180)
+			(uuid "112ded3d-50eb-42d8-a6de-9cc254d33475")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{RST}" output
+			(at 139.7 116.84 0)
+			(uuid "74cd55c3-59b9-4c85-8da7-d165325d5227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

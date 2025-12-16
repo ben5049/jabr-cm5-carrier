@@ -16,4 +16,5 @@
   (lib (name "PWR-SYM")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/PWR-SYM.kicad_sym")(options "")(descr ""))
   (lib (name "DEV")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DEV.kicad_sym")(options "")(descr ""))
   (lib (name "USB-CONN")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/USB-CONN.kicad_sym")(options "")(descr ""))
+  (lib (name "RF-CONN")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/RF-CONN.kicad_sym")(options "")(descr ""))
 )
