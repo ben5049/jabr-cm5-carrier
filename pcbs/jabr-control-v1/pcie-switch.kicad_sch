@@ -6138,10 +6138,10 @@
 		)
 		(uuid "4057e24b-ffcc-451a-8f80-8be2f7a0e115")
 	)
-	(text_box "CHANGE TO ASM1182e"
+	(text_box "CHANGE TO QFP-128 package"
 		(exclude_from_sim no)
-		(at 83.82 12.7 0)
-		(size 45.72 22.86)
+		(at 83.82 10.16 0)
+		(size 53.34 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
