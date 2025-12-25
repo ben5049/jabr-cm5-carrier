@@ -1311,28 +1311,6 @@
 		)
 		(uuid "62a4501f-1827-41f9-90f8-f2e30242a46b")
 	)
-	(text_box "Check feedback resistors"
-		(exclude_from_sim no)
-		(at 187.96 142.24 0)
-		(size 22.86 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "35478cf8-350f-4dbb-9823-1cae89d29003")
-	)
 	(text_box "Pulling MODE low enters power saving mode at low current draws"
 		(exclude_from_sim no)
 		(at 78.74 93.98 0)
@@ -3171,7 +3149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "120k"
 			(at 170.18 128.2699 0)
 			(effects
 				(font
