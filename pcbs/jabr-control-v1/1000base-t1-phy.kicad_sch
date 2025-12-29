@@ -5,6 +5,113 @@
 	(uuid "a4112364-f2e2-479c-b6a9-7f597f764249")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DEV:C_SMALL"
 			(pin_numbers
 				(hide yes)
@@ -2942,10 +3049,10 @@
 		)
 		(uuid "5437e73c-5651-4bee-b57a-1a49df862b4b")
 	)
-	(text_box "3.3V: VDD_SYS, VBAT, \n\nVDD, VDD_REG, VDDA\n\nVDDIO, VDDIO_EDS"
+	(text_box "3.3V: VDD_SYS, VBAT, VDD, VDD_REG, VDDA\n\nVDDIO, VDDIO_EDS"
 		(exclude_from_sim no)
 		(at 198.12 104.14 0)
-		(size 22.86 12.7)
+		(size 45.72 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4001,6 +4108,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc96ac06-71ce-4978-a736-ca5e31d31ec8")
+	)
+	(wire
+		(pts
 			(xy 157.48 137.16) (xy 160.02 137.16)
 		)
 		(stroke
@@ -4011,7 +4128,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 86.36) (xy 241.3 86.36)
+			(xy 238.76 86.36) (xy 254 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4109,6 +4226,16 @@
 		)
 		(uuid "fd126def-1c97-4fcf-b267-9ff3ecf6cfb0")
 	)
+	(label "S_VP"
+		(at 241.3 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1371501b-df0d-409e-a74d-ecf21cc24a20")
+	)
 	(label "TX_CLK"
 		(at 50.8 66.04 0)
 		(effects
@@ -4128,6 +4255,16 @@
 			(justify left bottom)
 		)
 		(uuid "28ed3c8b-6b04-4eaa-b104-dc631362e630")
+	)
+	(label "1588_CLK_ADJ"
+		(at 127 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b9088ce-621e-4fe4-a117-f63a35a92c6f")
 	)
 	(label "RX_D3"
 		(at 50.8 93.98 0)
@@ -5177,6 +5314,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 142.24 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f9e7d03-98f0-4654-828c-b571b15e6081")
+		(property "Reference" "TP8002"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5mm"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ba3b9b-8bd5-4c89-adfe-e97cac1b593d")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/d93fedc6-4251-42e0-84b2-9bf0445840d2"
+					(reference "TP8002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 185.42 88.9 0)
 		(unit 1)
@@ -5370,6 +5574,73 @@
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/d93fedc6-4251-42e0-84b2-9bf0445840d2"
 					(reference "#PWR2928")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 254 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2a9966c-f7f4-4837-b9d4-50dcf243f098")
+		(property "Reference" "TP8001"
+			(at 262.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5mm"
+			(at 264.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5557660-ed46-47f8-95bc-f2eb38322296")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/d93fedc6-4251-42e0-84b2-9bf0445840d2"
+					(reference "TP8001")
 					(unit 1)
 				)
 			)

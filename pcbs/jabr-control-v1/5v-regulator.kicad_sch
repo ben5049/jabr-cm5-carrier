@@ -4815,7 +4815,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "project_footprints:TPS259472ARPWR"

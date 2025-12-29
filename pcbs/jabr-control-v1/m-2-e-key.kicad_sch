@@ -2250,8 +2250,20 @@
 		(uuid "0cb1ef35-054b-4a90-80d8-bf6071ecc4ce")
 	)
 	(no_connect
+		(at 154.94 88.9)
+		(uuid "0ffc476d-b64a-45bb-bd5d-97dc8619da9d")
+	)
+	(no_connect
 		(at 99.06 121.92)
 		(uuid "325ddcfd-f487-4664-af71-5acbfbabbbfe")
+	)
+	(no_connect
+		(at 154.94 134.62)
+		(uuid "3702bab5-d829-4296-8a65-5f65411df465")
+	)
+	(no_connect
+		(at 154.94 114.3)
+		(uuid "3c536138-efbc-4c34-8405-fd14f829b6d8")
 	)
 	(no_connect
 		(at 99.06 119.38)
@@ -2262,12 +2274,32 @@
 		(uuid "5e7af41c-3644-4f59-939d-5ee42a173c97")
 	)
 	(no_connect
+		(at 154.94 139.7)
+		(uuid "70cc821b-9409-4751-a634-d15d76d4cd68")
+	)
+	(no_connect
+		(at 154.94 86.36)
+		(uuid "7b0ddd98-1683-4df3-b5a1-d91fe4d55ec6")
+	)
+	(no_connect
+		(at 154.94 96.52)
+		(uuid "7e407caa-ba98-464e-85de-08abe1499d56")
+	)
+	(no_connect
 		(at 99.06 106.68)
 		(uuid "81f9c1bf-d803-42ae-bbb5-3873b0df23dc")
 	)
 	(no_connect
 		(at 99.06 134.62)
 		(uuid "827ad4be-aa7f-4ccb-b111-a5304747828a")
+	)
+	(no_connect
+		(at 154.94 104.14)
+		(uuid "8340ef2f-8b53-4e77-b6fc-d33298ecaaef")
+	)
+	(no_connect
+		(at 154.94 111.76)
+		(uuid "8772bc44-169c-44ff-8cd2-86b25e13d91c")
 	)
 	(no_connect
 		(at 154.94 53.34)
@@ -2294,8 +2326,24 @@
 		(uuid "a46e89ae-a456-4e97-917b-93706a9d3792")
 	)
 	(no_connect
+		(at 154.94 121.92)
+		(uuid "ab16c675-db1d-4fb1-8146-4171213bc9e8")
+	)
+	(no_connect
 		(at 99.06 83.82)
 		(uuid "bbc53092-1345-4a1c-9767-37371dd89e7e")
+	)
+	(no_connect
+		(at 154.94 116.84)
+		(uuid "bc9c9bc7-ff91-44b8-b26f-4a692a36203b")
+	)
+	(no_connect
+		(at 154.94 137.16)
+		(uuid "bdca4b79-6657-420c-a220-fc1c1ad78692")
+	)
+	(no_connect
+		(at 154.94 101.6)
+		(uuid "c94cbdab-901b-4083-ad25-1b30b8cec4e4")
 	)
 	(no_connect
 		(at 99.06 101.6)
@@ -2308,6 +2356,14 @@
 	(no_connect
 		(at 99.06 129.54)
 		(uuid "dd58435e-2cfd-4cee-b6ee-43438fc4edb9")
+	)
+	(no_connect
+		(at 154.94 99.06)
+		(uuid "dd6e7a49-90de-4d25-a0a2-8ccd947a7486")
+	)
+	(no_connect
+		(at 154.94 119.38)
+		(uuid "deb4738a-de94-491b-a9e1-21be148646f4")
 	)
 	(no_connect
 		(at 99.06 91.44)
@@ -2395,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0236e791-300b-453a-bfb6-936058e5402f")
+	)
+	(wire
+		(pts
 			(xy 213.36 48.26) (xy 213.36 50.8)
 		)
 		(stroke
@@ -2442,6 +2508,16 @@
 			(type default)
 		)
 		(uuid "120ef53d-a40e-4fae-bae4-5e95329a9de5")
+	)
+	(wire
+		(pts
+			(xy 154.94 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcfd128-614a-42f9-8f88-436686b58c9f")
 	)
 	(wire
 		(pts
@@ -2937,6 +3013,28 @@
 			(justify right)
 		)
 		(uuid "aa7fdde9-adf1-4e60-afd5-9fbd162760dc")
+	)
+	(hierarchical_label "~{WL_DISABLE}"
+		(shape input)
+		(at 157.48 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bffe63f4-138f-4193-b55f-c83382c1e2a4")
+	)
+	(hierarchical_label "~{BT_DISABLE}"
+		(shape input)
+		(at 157.48 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c645420b-e47c-4ba6-bc21-394ae4e0ec10")
 	)
 	(symbol
 		(lib_id "Device:Antenna_Shield")

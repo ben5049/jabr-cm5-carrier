@@ -418,6 +418,16 @@
 		)
 		(uuid "5991fdb7-72f3-4cc7-887b-7f82c55de478")
 	)
+	(bus
+		(pts
+			(xy 139.7 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6247b2-a84e-48e8-8a67-7ecec2a6efdb")
+	)
 	(wire
 		(pts
 			(xy 215.9 93.98) (xy 208.28 93.98)
@@ -1410,6 +1420,16 @@
 				(justify left)
 			)
 		)
+		(pin "SMB{I2C}" bidirectional
+			(at 165.1 91.44 180)
+			(uuid "fa452d8a-ea56-4096-b52a-2c0b27805580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
@@ -1545,6 +1565,16 @@
 		(pin "~{RST}" output
 			(at 139.7 116.84 0)
 			(uuid "74cd55c3-59b9-4c85-8da7-d165325d5227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 139.7 91.44 0)
+			(uuid "7e4dc705-e68c-4b7e-912c-e2ef5abd69dc")
 			(effects
 				(font
 					(size 1.27 1.27)
