@@ -783,6 +783,210 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT,10% (A)",
+          "name": "ISAT,10% (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT,30% (A)",
+          "name": "ISAT,30% (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (µH)",
+          "name": "L (µH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Match Code",
+          "name": "Match Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Published Date",
+          "name": "Published Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC max. (mΩ)",
+          "name": "RDC max. (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC typ. (mΩ)",
+          "name": "RDC typ. (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type/Size",
+          "name": "Type/Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOP (V)",
+          "name": "VOP (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "fres (MHz)",
+          "name": "fres (MHz)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IRP,40K (A)",
+          "name": "IRP,40K (A)",
+          "show": false
         }
       ],
       "filter_string": "",

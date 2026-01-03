@@ -237,174 +237,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DIODE:PMEG4002EL-QYL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PMEG4002EL-QYL"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "project_footprints:PMEG4002EL-QYL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EL-Q.pdf"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMEG4002EL-QYL_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMEG4002EL-QYL_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -12684,12 +12516,6 @@
 		(uuid "ae0501a9-3d8c-4c8c-99f0-3969ead0f24e")
 	)
 	(junction
-		(at 269.24 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0756deac-7996-45ca-a6bf-e9e668a5052d")
-	)
-	(junction
 		(at 304.8 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13002,7 +12828,7 @@
 		(uuid "cf4b30f9-b2ef-4bb6-adba-a123a066b5e6")
 	)
 	(junction
-		(at 269.24 152.4)
+		(at 271.78 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4cf5a48-7c5c-4b54-9039-d68a72768872")
@@ -13509,7 +13335,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 165.1) (xy 269.24 167.64)
+			(xy 271.78 165.1) (xy 271.78 167.64)
 		)
 		(stroke
 			(width 0)
@@ -13836,16 +13662,6 @@
 			(type default)
 		)
 		(uuid "413f3e78-fb1e-49b4-8ed0-00bce214f5d8")
-	)
-	(wire
-		(pts
-			(xy 269.24 149.86) (xy 269.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42470572-cfb3-4091-92af-232e39040ae2")
 	)
 	(wire
 		(pts
@@ -14449,16 +14265,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 142.24) (xy 269.24 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971c510a-3385-4662-acaa-ab3aea9b9c6f")
-	)
-	(wire
-		(pts
 			(xy 124.46 190.5) (xy 144.78 190.5)
 		)
 		(stroke
@@ -14479,7 +14285,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 152.4) (xy 307.34 152.4)
+			(xy 271.78 152.4) (xy 307.34 152.4)
 		)
 		(stroke
 			(width 0)
@@ -14839,16 +14645,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 139.7) (xy 269.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c89f5dfc-14e5-45f9-a878-8d5842deec61")
-	)
-	(wire
-		(pts
 			(xy 304.8 165.1) (xy 307.34 165.1)
 		)
 		(stroke
@@ -14979,7 +14775,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 142.24) (xy 269.24 142.24)
+			(xy 269.24 152.4) (xy 271.78 152.4)
 		)
 		(stroke
 			(width 0)
@@ -15049,7 +14845,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 152.4) (xy 269.24 154.94)
+			(xy 271.78 152.4) (xy 271.78 154.94)
 		)
 		(stroke
 			(width 0)
@@ -15239,16 +15035,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 132.08) (xy 269.24 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48bd323-38a9-423f-aadf-1723fe802cfb")
-	)
-	(wire
-		(pts
 			(xy 355.6 147.32) (xy 353.06 147.32)
 		)
 		(stroke
@@ -15407,7 +15193,7 @@
 		)
 		(uuid "4e3f9e91-103f-4994-b309-bf164a5f67c3")
 	)
-	(label "~{LED_PWR_K}"
+	(label "~{LED_PWR_A}"
 		(at 294.64 127 0)
 		(effects
 			(font
@@ -15477,7 +15263,7 @@
 		)
 		(uuid "78fa292b-068f-4b76-a569-1dec46dc5b14")
 	)
-	(label "~{LED_PWR_A}"
+	(label "~{LED_ACT_A}"
 		(at 281.94 127 0)
 		(effects
 			(font
@@ -15587,16 +15373,6 @@
 		)
 		(uuid "e07d509a-978c-4dbe-85b6-d36e574a8338")
 	)
-	(label "PWR_BUT"
-		(at 292.1 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fea652f6-def2-467c-9615-b0fa65a0cd0d")
-	)
 	(hierarchical_label "VBUS_EN"
 		(shape output)
 		(at 144.78 96.52 0)
@@ -15641,9 +15417,9 @@
 		)
 		(uuid "4635603f-c66c-48c8-82e9-cb974b5d7a17")
 	)
-	(hierarchical_label "~{RST}"
+	(hierarchical_label "~{RST_5V}"
 		(shape output)
-		(at 266.7 142.24 180)
+		(at 269.24 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15898,72 +15674,6 @@
 			(project ""
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 269.24 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a62bfe8-69d9-4c1a-a66c-831ff5344e43")
-		(property "Reference" "#PWR0201"
-			(at 269.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 269.24 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9889689-f703-4151-bc99-a56b6c128af3")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -16652,7 +16362,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 269.24 160.02 90)
+		(at 271.78 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16660,7 +16370,7 @@
 		(dnp no)
 		(uuid "3e33c737-8c8f-4348-9ff9-b9f9ed827e57")
 		(property "Reference" "SW201"
-			(at 270.51 158.7499 90)
+			(at 273.05 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +16379,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 270.51 161.2899 90)
+			(at 273.05 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16678,7 +16388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16687,7 +16397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16696,7 +16406,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 269.24 160.02 0)
+			(at 271.78 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17829,7 +17539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 167.64 0)
+		(at 271.78 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17838,7 +17548,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bd1e744-a490-4019-a7d8-342b4c30ef84")
 		(property "Reference" "#PWR0202"
-			(at 269.24 173.99 0)
+			(at 271.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17847,7 +17557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 172.72 0)
+			(at 271.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17855,7 +17565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 167.64 0)
+			(at 271.78 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17864,7 +17574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 167.64 0)
+			(at 271.78 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17873,7 +17583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 167.64 0)
+			(at 271.78 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18641,75 +18351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:R_SMALL")
-		(at 269.24 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd294401-5fa6-40b2-8f76-5625b1ffc022")
-		(property "Reference" "R201"
-			(at 271.78 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 271.78 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:R_0402"
-			(at 269.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 269.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc6f1101-5ab8-45b1-a6c3-33903f12aff9")
-		)
-		(pin "1"
-			(uuid "a383259f-fe61-4781-8dd0-dea960f1ece0")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "R201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SOM:RP-CM5")
 		(at 215.9 76.2 0)
 		(unit 3)
@@ -19385,93 +19026,6 @@
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "SOM2001")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DIODE:PMEG4002EL-QYL")
-		(at 269.24 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "caf6684c-a6e6-4852-821f-6aeb93ca0226")
-		(property "Reference" "D202"
-			(at 271.78 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PMEG4002EL-QYL"
-			(at 271.78 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "project_footprints:PMEG4002EL-QYL"
-			(at 269.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EL-Q.pdf"
-			(at 269.24 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 269.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 269.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2345251d-54b5-45ca-89a8-b99ed22b465e")
-		)
-		(pin "1"
-			(uuid "ce86552d-55fd-4d81-9d0d-82813f51450e")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "D202")
-					(unit 1)
 				)
 			)
 		)

@@ -1562,9 +1562,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{RST}" output
-			(at 139.7 116.84 0)
-			(uuid "74cd55c3-59b9-4c85-8da7-d165325d5227")
+		(pin "I2C2{I2C}" bidirectional
+			(at 139.7 91.44 0)
+			(uuid "7e4dc705-e68c-4b7e-912c-e2ef5abd69dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,9 +1572,9 @@
 				(justify right)
 			)
 		)
-		(pin "I2C2{I2C}" bidirectional
-			(at 139.7 91.44 0)
-			(uuid "7e4dc705-e68c-4b7e-912c-e2ef5abd69dc")
+		(pin "~{RST_5V}" output
+			(at 139.7 116.84 0)
+			(uuid "016f28ab-0032-4926-b6b8-f740631b64a4")
 			(effects
 				(font
 					(size 1.27 1.27)
