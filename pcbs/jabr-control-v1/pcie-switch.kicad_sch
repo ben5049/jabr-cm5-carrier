@@ -8462,6 +8462,28 @@
 		)
 		(uuid "df52be76-7143-47c3-9957-1e912ee5b327")
 	)
+	(text_box "Set other straps"
+		(exclude_from_sim no)
+		(at 53.34 104.14 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ee91f6fb-32fc-461a-a234-3b1221b91a5b")
+	)
 	(text_box "Figure out how to make PRSNT1 high when no M.2 mounted and low when populated"
 		(exclude_from_sim no)
 		(at 157.48 17.78 0)
@@ -8483,6 +8505,28 @@
 			(justify left top)
 		)
 		(uuid "f46e5e6e-5195-4ab3-bda6-e01d2109829e")
+	)
+	(text_box "Add decoupling caps"
+		(exclude_from_sim no)
+		(at 184.1743 142.9989 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f4c007a7-716a-4f16-9acf-9eb261b5bf76")
 	)
 	(text_box "REFCLKI"
 		(exclude_from_sim no)

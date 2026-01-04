@@ -1495,9 +1495,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Dual USB3 type A"
+	(text_box "Two USB3 type C sideways"
 		(exclude_from_sim no)
-		(at 132.08 121.92 0)
+		(at 238.76 119.38 0)
 		(size 30.48 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

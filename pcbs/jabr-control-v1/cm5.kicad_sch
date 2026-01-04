@@ -237,6 +237,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DIODE:PMEG4002EL-QYL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG4002EL-QYL"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:PMEG4002EL-QYL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EL-Q.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG4002EL-QYL_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG4002EL-QYL_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -12702,6 +12870,12 @@
 		(uuid "832d4e9c-bacd-4dd8-857f-7e3a2c93af89")
 	)
 	(junction
+		(at 289.56 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86aab29e-aa53-459f-b056-a8745d948cc7")
+	)
+	(junction
 		(at 355.6 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12754,6 +12928,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98ac807d-8a2d-4d65-ae50-389addb3b54c")
+	)
+	(junction
+		(at 271.78 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cc64927-e154-44d0-9a4b-6efb16356514")
 	)
 	(junction
 		(at 355.6 205.74)
@@ -13253,6 +13433,16 @@
 		)
 		(uuid "02be08ab-ca90-407b-ac02-fd033fd1ab29")
 	)
+	(wire
+		(pts
+			(xy 269.24 147.32) (xy 271.78 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d74ad-1eba-43df-842d-dd03fc4793fa")
+	)
 	(bus
 		(pts
 			(xy 58.42 190.5) (xy 58.42 195.58)
@@ -13465,6 +13655,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 152.4) (xy 307.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20249db5-66cf-44c3-a8c8-ae575aa7d1c5")
+	)
+	(wire
+		(pts
 			(xy 281.94 101.6) (xy 294.64 101.6)
 		)
 		(stroke
@@ -13635,6 +13835,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 147.32) (xy 271.78 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3615d2-dfb6-4d3b-9fbf-6c7d783dac72")
+	)
+	(wire
+		(pts
 			(xy 304.8 101.6) (xy 304.8 106.68)
 		)
 		(stroke
@@ -13742,6 +13952,16 @@
 			(type default)
 		)
 		(uuid "4dca1d35-2388-4eb1-90bd-b7cade2774d7")
+	)
+	(wire
+		(pts
+			(xy 271.78 137.16) (xy 271.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50306948-12ec-4e11-9cc8-fa6c06fd149a")
 	)
 	(wire
 		(pts
@@ -14015,6 +14235,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 147.32) (xy 289.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4e53da-4b73-4be6-bca3-905768b79128")
+	)
+	(wire
+		(pts
 			(xy 355.6 182.88) (xy 355.6 185.42)
 		)
 		(stroke
@@ -14285,7 +14515,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 152.4) (xy 307.34 152.4)
+			(xy 271.78 152.4) (xy 289.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -14365,6 +14595,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 147.32) (xy 289.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6785b26-24a0-4e69-9c8b-b05d1e9b5d49")
+	)
+	(wire
+		(pts
 			(xy 60.96 198.12) (xy 78.74 198.12)
 		)
 		(stroke
@@ -14422,6 +14662,16 @@
 			(type default)
 		)
 		(uuid "ac5c8b7f-31ad-4ac9-a034-90422c89a366")
+	)
+	(wire
+		(pts
+			(xy 271.78 144.78) (xy 271.78 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac863d7e-ff64-4d3c-8ee7-1399191b1069")
 	)
 	(wire
 		(pts
@@ -15494,6 +15744,17 @@
 		)
 		(uuid "d839cf7d-9e75-4d22-930b-a4464b998f71")
 	)
+	(hierarchical_label "~{RST_3V3}"
+		(shape output)
+		(at 269.24 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efc2286e-27d3-4aa2-a08a-e6eea7c2f3c2")
+	)
 	(hierarchical_label "~{WL_DISABLE}"
 		(shape output)
 		(at 304.8 162.56 180)
@@ -15674,6 +15935,73 @@
 			(project ""
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 271.78 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e348a91-239e-40b0-8122-4825d28183b9")
+		(property "Reference" "#PWR0201"
+			(at 271.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 271.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca7a26c-6330-4119-86e8-638c481919b8")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -16704,6 +17032,76 @@
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP2002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DEV:R_SMALL")
+		(at 271.78 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65e2cb65-cfb1-4e33-927a-2a71cdb9d96c")
+		(property "Reference" "R201"
+			(at 269.24 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 269.24 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:R_0402"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64359b18-08f8-4368-96b7-a19fe96adc92")
+		)
+		(pin "1"
+			(uuid "e2790fce-78e3-4dd3-9db4-5f81452ad1a4")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -19089,6 +19487,92 @@
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP2001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIODE:PMEG4002EL-QYL")
+		(at 284.48 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e81bf8f9-0e0f-46fe-9cbf-fa3ed334f19f")
+		(property "Reference" "D201"
+			(at 284.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG4002EL-QYL"
+			(at 284.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:PMEG4002EL-QYL"
+			(at 284.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EL-Q.pdf"
+			(at 284.48 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 284.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 284.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 284.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca69c25-af85-4e0c-9b97-23d8225b7627")
+		)
+		(pin "1"
+			(uuid "5e35ba0a-d277-4419-8a0b-aa5197c17f1d")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
+					(reference "D201")
 					(unit 1)
 				)
 			)
