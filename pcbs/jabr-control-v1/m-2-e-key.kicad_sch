@@ -270,208 +270,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Antenna_Shield"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Antenna_Shield"
-				(at -1.905 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Antenna with extra pin for shielding"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_Shield_0_1"
-				(arc
-					(start 0 -2.667)
-					(mid -0.8485 -2.1032)
-					(end -0.508 -1.143)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -1.143)
-					(mid 0.8046 -2.0885)
-					(end 0 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -1.905)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_Shield_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OSC:ASEK-32.768KHZ-LRT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2041,6 +1839,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF-CONN:EMPCB.SMAFSTJ.B.HT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "EMPCB.SMAFSTJ.B.HT"
+				(at -1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "project_footprints:sma_edge_mount"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/942/1/EMPCB.SMAFSTJ.B.HT.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna with extra pin for shielding"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMPCB.SMAFSTJ.B.HT_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EMPCB.SMAFSTJ.B.HT_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF-CONN:U.FL-R-SMT-K_895"
 			(pin_numbers
 				(hide yes)
@@ -2519,6 +2519,16 @@
 	(bus_alias "PCIE"
 		(members "CLK_P" "CLK_N" "TX_P" "TX_N" "RX_P" "RX_N")
 	)
+	(text "M.2 E-Key"
+		(exclude_from_sim no)
+		(at 127 27.94 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "11a758d2-ca35-46dd-84e4-46c863afe4f6")
+	)
 	(text "2242 Mouting hole"
 		(exclude_from_sim no)
 		(at 227.33 87.63 0)
@@ -2559,10 +2569,10 @@
 		)
 		(uuid "f1cc3ff6-eb47-4eec-8b50-341cae4b956f")
 	)
-	(text_box "All pull ups to system 3V3 are to prevent invalid behaviour when M.2 module is asleep."
+	(text_box "All pull ups to system 3V3 are to prevent invalid behaviour when M.2 module is asleep or not connected."
 		(exclude_from_sim no)
 		(at 45.72 86.36 0)
-		(size 25.4 10.16)
+		(size 25.4 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2575,7 +2585,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
 		(uuid "fd18348b-83dc-4f02-9efe-3357bedbac9e")
 	)
@@ -3193,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 93.98 124.46)
+			(xy 93.98 114.3) (xy 93.98 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 93.98 106.68)
+			(xy 93.98 106.68) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3671,7 +3681,7 @@
 		)
 		(uuid "3a05b5fe-8a14-4287-b58a-26c7a96ef2d1")
 	)
-	(label "USB.DN"
+	(label "DN"
 		(at 83.82 144.78 0)
 		(effects
 			(font
@@ -3811,7 +3821,7 @@
 		)
 		(uuid "e87ba727-0a07-4875-95b6-1ffbdf8dd5ff")
 	)
-	(label "USB.DP"
+	(label "DP"
 		(at 83.82 142.24 0)
 		(effects
 			(font
@@ -3929,7 +3939,18 @@
 		)
 		(uuid "8a6cf717-acdf-4563-aa79-d7c39d5d66ab")
 	)
-	(hierarchical_label "USB{USB}"
+	(hierarchical_label "BT_EN"
+		(shape input)
+		(at 177.8 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa4bb3fb-eb4b-4a35-84fb-b94d38ad425d")
+	)
+	(hierarchical_label "{USB}"
 		(shape bidirectional)
 		(at 76.2 139.7 180)
 		(effects
@@ -3940,7 +3961,7 @@
 		)
 		(uuid "aa7fdde9-adf1-4e60-afd5-9fbd162760dc")
 	)
-	(hierarchical_label "~{WL_DISABLE}"
+	(hierarchical_label "WL_EN"
 		(shape input)
 		(at 177.8 71.12 0)
 		(effects
@@ -3949,18 +3970,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bffe63f4-138f-4193-b55f-c83382c1e2a4")
-	)
-	(hierarchical_label "~{BT_DISABLE}"
-		(shape input)
-		(at 177.8 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c645420b-e47c-4ba6-bc21-394ae4e0ec10")
+		(uuid "cfc6c54c-0973-441d-9584-ad9754a4917a")
 	)
 	(hierarchical_label "~{SPI_INT}"
 		(shape output)
@@ -3985,7 +3995,7 @@
 		(uuid "ffc3c5b9-9984-4f41-aa37-e798126b2ad9")
 	)
 	(symbol
-		(lib_id "Device:Antenna_Shield")
+		(lib_id "RF-CONN:EMPCB.SMAFSTJ.B.HT")
 		(at 66.04 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4020,7 +4030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/942/1/EMPCB.SMAFSTJ.B.HT.pdf"
 			(at 66.04 172.72 0)
 			(effects
 				(font
@@ -4030,6 +4040,33 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 66.04 175.26 0)
 			(effects
 				(font
@@ -4114,6 +4151,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4373,6 +4437,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -4661,7 +4752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Shield")
+		(lib_id "RF-CONN:EMPCB.SMAFSTJ.B.HT")
 		(at 124.46 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4696,7 +4787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/942/1/EMPCB.SMAFSTJ.B.HT.pdf"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -4706,6 +4797,33 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -4731,7 +4849,7 @@
 	)
 	(symbol
 		(lib_id "DEV:R_SMALL")
-		(at 93.98 109.22 0)
+		(at 93.98 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4740,15 +4858,6 @@
 		(dnp no)
 		(uuid "57f70ccb-a0ab-4d8e-9324-cba92231304a")
 		(property "Reference" "R404"
-			(at 91.44 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
 			(at 91.44 110.4899 0)
 			(effects
 				(font
@@ -4757,8 +4866,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10k"
+			(at 91.44 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "project_footprints:R_0402"
-			(at 93.98 109.22 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 109.22 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4894,34 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 93.98 109.22 0)
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,6 +5006,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b0f440e-1762-4950-a16c-b300a37de1c2")
 		)
@@ -4923,6 +5095,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 213.36 134.62 0)
 			(effects
 				(font
@@ -5001,6 +5200,33 @@
 		)
 		(property "Height" "1.45"
 			(at 50.8 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,6 +5378,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f475d5a3-4e8c-4344-8efa-2177f3f8b357")
 		)
@@ -5285,6 +5538,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -5442,7 +5722,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 93.98 104.14 0)
+		(at 93.98 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5451,7 +5731,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0501a11-6dd0-40eb-9cd4-e067d7e54765")
 		(property "Reference" "#PWR0417"
-			(at 93.98 107.95 0)
+			(at 93.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5740,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 93.98 99.06 0)
+			(at 93.98 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 104.14 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 104.14 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 104.14 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,6 +5850,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5715,6 +6022,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

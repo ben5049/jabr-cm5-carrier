@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 50.8 78.74)
-		(end 76.2 86.36)
+		(start 58.42 71.12)
+		(end 83.82 78.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -18,8 +18,8 @@
 		(uuid 3d301fbe-4449-4da5-9c1f-6184b59cf810)
 	)
 	(rectangle
-		(start 165.1 91.44)
-		(end 190.5 119.38)
+		(start 172.72 96.52)
+		(end 198.12 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -31,7 +31,7 @@
 	)
 	(text "PHY Wakeup circuitry"
 		(exclude_from_sim no)
-		(at 218.44 63.5 0)
+		(at 226.06 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,9 +40,20 @@
 		)
 		(uuid "03e1c469-a6bf-443f-9fea-cffc3aae2ba0")
 	)
+	(text "PCIe Switch"
+		(exclude_from_sim no)
+		(at 226.06 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05c166ec-b814-4d7e-aa62-5e2831c79a2c")
+	)
 	(text "676mA"
 		(exclude_from_sim no)
-		(at 205.74 139.7 0)
+		(at 213.36 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +64,7 @@
 	)
 	(text "VBUS"
 		(exclude_from_sim no)
-		(at 78.74 78.74 0)
+		(at 86.36 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,20 +73,20 @@
 		)
 		(uuid "1572f71a-c403-4cf9-9f88-cb530eb257b6")
 	)
-	(text "PCIe Switch"
+	(text "<100mA"
 		(exclude_from_sim no)
-		(at 218.44 104.14 0)
+		(at 213.36 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2c027612-0987-439a-852a-fe0d28f3435d")
+		(uuid "307cb754-1ff8-4513-ade0-66a319e6e8ce")
 	)
 	(text "3V3"
 		(exclude_from_sim no)
-		(at 193.04 91.44 0)
+		(at 200.66 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -84,9 +95,9 @@
 		)
 		(uuid "332e0b23-2b4d-4339-b1ea-da2277961eb7")
 	)
-	(text "<100mA"
+	(text "<300mA"
 		(exclude_from_sim no)
-		(at 205.74 91.44 0)
+		(at 213.36 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -97,7 +108,7 @@
 	)
 	(text "6uA"
 		(exclude_from_sim no)
-		(at 205.74 55.88 0)
+		(at 213.36 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -108,7 +119,7 @@
 	)
 	(text "3V3_M2"
 		(exclude_from_sim no)
-		(at 193.04 68.58 0)
+		(at 200.66 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -119,7 +130,7 @@
 	)
 	(text "LAN7431"
 		(exclude_from_sim no)
-		(at 218.44 116.84 0)
+		(at 226.06 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -128,20 +139,9 @@
 		)
 		(uuid "5034425c-44f7-4950-a5f3-9fb4228ee614")
 	)
-	(text "390mA"
-		(exclude_from_sim no)
-		(at 205.74 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "576164c7-cc73-405d-a685-48de39b11495")
-	)
 	(text "1V1"
 		(exclude_from_sim no)
-		(at 193.04 132.08 0)
+		(at 200.66 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -152,7 +152,7 @@
 	)
 	(text "CM5IO"
 		(exclude_from_sim no)
-		(at 50.8 76.2 0)
+		(at 58.42 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -163,7 +163,7 @@
 	)
 	(text "<5mA"
 		(exclude_from_sim no)
-		(at 205.74 50.8 0)
+		(at 213.36 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -174,7 +174,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 129.54 68.58 0)
+		(at 137.16 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -185,7 +185,7 @@
 	)
 	(text "1000BASE-T1"
 		(exclude_from_sim no)
-		(at 218.44 111.76 0)
+		(at 226.06 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196,7 +196,7 @@
 	)
 	(text "188mA"
 		(exclude_from_sim no)
-		(at 205.74 114.3 0)
+		(at 213.36 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -207,7 +207,7 @@
 	)
 	(text "M.2 E-Key connector"
 		(exclude_from_sim no)
-		(at 218.44 71.12 0)
+		(at 226.06 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -216,20 +216,20 @@
 		)
 		(uuid "776f5f1a-eb36-40e7-b14b-8a080e83c87b")
 	)
-	(text "<10mA"
+	(text "LAN7431"
 		(exclude_from_sim no)
-		(at 205.74 96.52 0)
+		(at 226.06 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "90ebb52b-8394-41e5-b1be-039d15bf4254")
+		(uuid "96ef6615-70fa-4f21-8229-799e6a15fa29")
 	)
 	(text "6uA"
 		(exclude_from_sim no)
-		(at 205.74 60.96 0)
+		(at 213.36 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -238,9 +238,20 @@
 		)
 		(uuid "9f656644-6234-4eeb-ac80-158503e6ad67")
 	)
+	(text "3V3_PCIE"
+		(exclude_from_sim no)
+		(at 200.66 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1115716-b06f-4037-a2f2-3ceb9d0e36ad")
+	)
 	(text "M.2 SUSCLK"
 		(exclude_from_sim no)
-		(at 218.44 53.34 0)
+		(at 226.06 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -249,9 +260,20 @@
 		)
 		(uuid "a66969cb-d66d-414c-8959-8e9b9adb7014")
 	)
+	(text "<10mA"
+		(exclude_from_sim no)
+		(at 213.36 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b39fbde9-ee66-4f9e-87b9-2bc069508237")
+	)
 	(text "VIN (12V-24V)"
 		(exclude_from_sim no)
-		(at 78.74 50.8 0)
+		(at 86.36 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -262,7 +284,7 @@
 	)
 	(text "<500mA"
 		(exclude_from_sim no)
-		(at 205.74 132.08 0)
+		(at 213.36 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -273,7 +295,7 @@
 	)
 	(text "1V8"
 		(exclude_from_sim no)
-		(at 193.04 109.22 0)
+		(at 200.66 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -284,7 +306,7 @@
 	)
 	(text "<3000mA"
 		(exclude_from_sim no)
-		(at 205.74 68.58 0)
+		(at 213.36 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -293,9 +315,20 @@
 		)
 		(uuid "cdf9a02e-5902-4308-bb7d-4f80e75d8f7e")
 	)
+	(text "1000BASE-T1"
+		(exclude_from_sim no)
+		(at 226.06 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf1b1057-85be-4876-b767-c5a2896e2697")
+	)
 	(text "<300mA"
 		(exclude_from_sim no)
-		(at 205.74 109.22 0)
+		(at 213.36 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -306,7 +339,7 @@
 	)
 	(text "1000BASE-T1"
 		(exclude_from_sim no)
-		(at 218.44 134.62 0)
+		(at 226.06 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -317,7 +350,7 @@
 	)
 	(text "PCIe Switch"
 		(exclude_from_sim no)
-		(at 218.44 142.24 0)
+		(at 226.06 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -328,7 +361,7 @@
 	)
 	(text "CM5 VBAT"
 		(exclude_from_sim no)
-		(at 218.44 58.42 0)
+		(at 226.06 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -337,20 +370,9 @@
 		)
 		(uuid "e2c1a75f-3b5b-4369-870d-80ba06d77560")
 	)
-	(text "LAN7431"
-		(exclude_from_sim no)
-		(at 218.44 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e32f4428-f98f-4c4e-afa5-fe95a6e36726")
-	)
 	(text "3V3_AON"
 		(exclude_from_sim no)
-		(at 193.04 50.8 0)
+		(at 200.66 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -361,7 +383,7 @@
 	)
 	(text "1V0"
 		(exclude_from_sim no)
-		(at 193.04 139.7 0)
+		(at 200.66 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -370,9 +392,20 @@
 		)
 		(uuid "eb0720f9-88ef-47e5-b86f-a44116481552")
 	)
+	(text "390mA"
+		(exclude_from_sim no)
+		(at 213.36 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2d149ea-663c-4d52-9818-a89abb252d6e")
+	)
 	(text "CM5"
 		(exclude_from_sim no)
-		(at 165.1 88.9 0)
+		(at 172.72 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -381,9 +414,9 @@
 		)
 		(uuid "f4cc0ba6-4610-4404-85bf-d2d7bd0e00c8")
 	)
-	(text "1000BASE-T1"
+	(text "MIPI Power"
 		(exclude_from_sim no)
-		(at 218.44 93.98 0)
+		(at 226.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -393,12 +426,22 @@
 		(uuid "f64b8598-90bf-4949-9cab-6b791e4258b6")
 	)
 	(no_connect
-		(at 162.56 76.2)
+		(at 170.18 68.58)
 		(uuid "c143551b-e67a-4155-a3bb-2cf36d91bea0")
+	)
+	(polyline
+		(pts
+			(xy 198.12 73.66) (xy 223.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f4929e-2b68-442c-9ef8-acf8559fda73")
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 101.6 73.66)
+			(xy 106.68 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -408,7 +451,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 71.12) (xy 165.1 71.12)
+			(xy 134.62 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -418,7 +461,17 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 53.34) (xy 203.2 58.42)
+			(xy 210.82 73.66) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2fabed-58a7-4706-99ef-85fa135b8900")
+	)
+	(polyline
+		(pts
+			(xy 210.82 45.72) (xy 210.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -428,7 +481,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 71.12) (xy 215.9 71.12)
+			(xy 198.12 63.5) (xy 223.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -438,17 +491,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 99.06) (xy 203.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e4a730f-d622-4e86-9621-903ae8a1d92b")
-	)
-	(polyline
-		(pts
-			(xy 215.9 63.5) (xy 203.2 63.5)
+			(xy 223.52 55.88) (xy 210.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -458,7 +501,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 58.42) (xy 203.2 63.5)
+			(xy 210.82 50.8) (xy 210.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -468,7 +511,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 111.76) (xy 215.9 111.76)
+			(xy 198.12 116.84) (xy 223.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -478,17 +521,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 93.98) (xy 203.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301a02a1-0f75-4607-b163-1515fc619602")
-	)
-	(polyline
-		(pts
-			(xy 76.2 53.34) (xy 165.1 53.34)
+			(xy 83.82 45.72) (xy 172.72 45.72)
 		)
 		(stroke
 			(width 0)
@@ -498,17 +531,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 104.14) (xy 203.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501d1039-fd5c-4f96-8982-65aca3d87bc9")
-	)
-	(polyline
-		(pts
-			(xy 215.9 58.42) (xy 203.2 58.42)
+			(xy 223.52 50.8) (xy 210.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -518,7 +541,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 134.62) (xy 215.9 134.62)
+			(xy 198.12 137.16) (xy 223.52 137.16)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +551,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 93.98) (xy 165.1 93.98)
+			(xy 147.32 99.06) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -538,7 +561,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 81.28) (xy 101.6 81.28)
+			(xy 83.82 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -548,7 +571,17 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 53.34) (xy 88.9 71.12)
+			(xy 210.82 78.74) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c07ddd-420b-4497-b5dc-ff94a6cd4809")
+	)
+	(polyline
+		(pts
+			(xy 96.52 45.72) (xy 96.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -558,7 +591,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 71.12) (xy 139.7 134.62)
+			(xy 147.32 63.5) (xy 147.32 137.16)
 		)
 		(stroke
 			(width 0)
@@ -568,17 +601,27 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 99.06) (xy 203.2 104.14)
+			(xy 223.52 83.82) (xy 210.82 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a60abd18-8cb0-498b-a4bf-e2316f3f5772")
+		(uuid "9c605fa8-11d6-4b21-91cd-84c262ccb1ef")
 	)
 	(polyline
 		(pts
-			(xy 190.5 53.34) (xy 215.9 53.34)
+			(xy 223.52 78.74) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ba5435-3872-481e-a8b2-665ba807c406")
+	)
+	(polyline
+		(pts
+			(xy 198.12 45.72) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -588,7 +631,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 111.76) (xy 203.2 116.84)
+			(xy 210.82 116.84) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -598,7 +641,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 93.98) (xy 215.9 93.98)
+			(xy 198.12 99.06) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -608,7 +651,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 71.12) (xy 101.6 71.12)
+			(xy 96.52 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -618,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 165.1 76.2)
+			(xy 170.18 68.58) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +671,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 142.24) (xy 215.9 142.24)
+			(xy 198.12 144.78) (xy 223.52 144.78)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +681,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 134.62) (xy 165.1 134.62)
+			(xy 147.32 137.16) (xy 172.72 137.16)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +691,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 116.84) (xy 203.2 116.84)
+			(xy 223.52 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +701,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 165.1 73.66)
+			(xy 170.18 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -668,7 +711,7 @@
 	)
 	(hierarchical_label "3V3_M2_EN"
 		(shape input)
-		(at 162.56 73.66 180)
+		(at 170.18 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -679,7 +722,7 @@
 	)
 	(hierarchical_label "INH"
 		(shape input)
-		(at 99.06 73.66 180)
+		(at 106.68 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -689,7 +732,7 @@
 		(uuid "f64d8bd1-40d5-4c43-b4d5-9ac8fb8a2cb5")
 	)
 	(sheet
-		(at 165.1 132.08)
+		(at 172.72 134.62)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -705,7 +748,7 @@
 		)
 		(uuid "313ad2b1-6281-4d61-a8a6-55e55641e36c")
 		(property "Sheetname" "1V0 & 1V1 Regulators"
-			(at 165.1 131.3684 0)
+			(at 172.72 133.9084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +757,7 @@
 			)
 		)
 		(property "Sheetfile" "1v0-1v1-regulators.kicad_sch"
-			(at 165.1 145.3646 0)
+			(at 172.72 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,8 +774,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 48.26)
-		(size 25.4 30.48)
+		(at 172.72 40.64)
+		(size 25.4 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -747,7 +790,7 @@
 		)
 		(uuid "52a41b87-8503-44b7-832c-aae66b3851bb")
 		(property "Sheetname" "3V3 Regulators"
-			(at 165.1 47.5484 0)
+			(at 172.72 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +799,7 @@
 			)
 		)
 		(property "Sheetfile" "3v3-regulators.kicad_sch"
-			(at 165.1 79.3246 0)
+			(at 172.72 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +808,7 @@
 			)
 		)
 		(pin "3V3_M2_EN" input
-			(at 165.1 73.66 180)
+			(at 172.72 66.04 180)
 			(uuid "447f0a21-2604-4558-85d9-79ba1aeb069d")
 			(effects
 				(font
@@ -775,7 +818,7 @@
 			)
 		)
 		(pin "3V3_M2_MODE" input
-			(at 165.1 76.2 180)
+			(at 172.72 68.58 180)
 			(uuid "59072a80-4ae3-4598-879e-ddbde33f39e8")
 			(effects
 				(font
@@ -793,7 +836,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 68.58)
+		(at 109.22 60.96)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -809,7 +852,7 @@
 		)
 		(uuid "a1f2745a-98e5-40f5-b635-cc8a6d17ac78")
 		(property "Sheetname" "5V Regulator"
-			(at 101.6 67.8684 0)
+			(at 109.22 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +861,7 @@
 			)
 		)
 		(property "Sheetfile" "5v-regulator.kicad_sch"
-			(at 101.6 84.4046 0)
+			(at 109.22 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +870,7 @@
 			)
 		)
 		(pin "INH" input
-			(at 101.6 73.66 180)
+			(at 109.22 66.04 180)
 			(uuid "06818203-d75f-4ff5-a914-7187a8dd2a85")
 			(effects
 				(font
@@ -845,7 +888,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 48.26)
+		(at 58.42 40.64)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -861,7 +904,7 @@
 		)
 		(uuid "c8847476-18c7-4518-a86a-3cbd7effb778")
 		(property "Sheetname" "Power In"
-			(at 50.8 47.5484 0)
+			(at 58.42 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +913,7 @@
 			)
 		)
 		(property "Sheetfile" "power-in.kicad_sch"
-			(at 50.8 59.0046 0)
+			(at 58.42 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

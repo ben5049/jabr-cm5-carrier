@@ -5,7 +5,7 @@
 	(uuid "13a6a9fa-8967-4f5c-a1f9-086035fee7b9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "DEV:C_SMALL_IO"
+		(symbol "DEV:C_SMALL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_SMALL_IO_0_1"
+			(symbol "C_SMALL_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -105,8 +105,8 @@
 					)
 				)
 			)
-			(symbol "C_SMALL_IO_1_1"
-				(pin input line
+			(symbol "C_SMALL_1_1"
+				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
 					(name "~"
@@ -124,7 +124,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
@@ -2334,6 +2334,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PWR-SYM:+3V3_PCIE"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_PCIE"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_PCIE_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_PCIE_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V2"
 			(power)
 			(pin_numbers
@@ -2688,131 +2813,6 @@
 				)
 			)
 			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -6380,7 +6380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 142.24 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6426,6 +6426,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 142.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 142.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 142.24 142.24 0)
 			(effects
 				(font
@@ -6581,7 +6608,73 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "PWR-SYM:+3V3_PCIE")
+		(at 104.14 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d601e34-d5b2-490e-ab2d-673dde03a352")
+		(property "Reference" "#PWR0521"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_PCIE"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014fbf3f-7420-4b8d-88e0-44fd9e3ae8ca")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
+					(reference "#PWR0521")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DEV:C_SMALL")
 		(at 127 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6635,6 +6728,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c97cb7a9-a427-4092-9f24-8f1f2427d141")
 		)
@@ -6651,7 +6771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 134.62 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6705,6 +6825,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dda37720-a41b-4e09-bf3f-9d6e8f23a120")
 		)
@@ -6721,139 +6868,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 142.24 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16af2b8d-84b1-4b72-9dd6-28a38ae8e73a")
-		(property "Reference" "#PWR0521"
-			(at 142.24 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 142.24 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f1378d3-6df9-4cfc-b700-7b8180bfa730")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
-					(reference "#PWR0521")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 20.32 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1755b1fe-024d-4673-a2ea-f6c6eeac3a66")
-		(property "Reference" "#PWR0501"
-			(at 20.32 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 20.32 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 20.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a64f3bf0-a1dd-4f63-bee2-d81ee2e5d853")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
-					(reference "#PWR0501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 193.04 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6899,6 +6914,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 193.04 142.24 0)
 			(effects
 				(font
@@ -7125,6 +7167,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c04191dd-4a11-4b54-933d-b8055cca31cd")
 		)
@@ -7273,7 +7342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 35.56 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7327,6 +7396,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "771f1850-bad3-4d2b-be1e-f7d9f1a7711c")
 		)
@@ -7343,7 +7439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 76.2 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7389,6 +7485,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 76.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 76.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 76.2 175.26 0)
 			(effects
 				(font
@@ -7459,6 +7582,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 53.34 71.12 0)
 			(effects
 				(font
@@ -7550,7 +7700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 66.04 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7604,6 +7754,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7a52295-f406-4a80-8a02-a97f076b576b")
 		)
@@ -7620,7 +7797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 106.68 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7666,6 +7843,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 106.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 106.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 106.68 175.26 0)
 			(effects
 				(font
@@ -7865,6 +8069,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field6" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8251,6 +8482,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "e2d6cd87-2c8a-41ff-a334-d55f5c6423b9")
 		)
@@ -8480,7 +8738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 33.02 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8526,6 +8784,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 33.02 58.42 0)
 			(effects
 				(font
@@ -8604,6 +8889,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 177.8 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 177.8 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 177.8 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb6b9b24-518c-4eec-9740-48ffa22ab730")
 		)
@@ -8614,6 +8926,72 @@
 			(project "jabr-control-v1"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
 					(reference "C5001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-SYM:+3V3_PCIE")
+		(at 20.32 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57eeac7f-4198-4d0d-ab47-0a9bb294fbad")
+		(property "Reference" "#PWR0501"
+			(at 20.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_PCIE"
+			(at 20.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a859e5e-8e21-4374-a8e4-e2544391dfe8")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -8674,6 +9052,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 177.8 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 177.8 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 177.8 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d99b87b-23b3-4004-95da-289e5c5b513b")
 		)
@@ -8690,7 +9095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 45.72 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8744,6 +9149,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 45.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 45.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 45.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f4d225c-b265-4a0d-b5db-3c7d07ddeb1e")
 		)
@@ -8760,7 +9192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 223.52 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8806,6 +9238,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 223.52 142.24 0)
 			(effects
 				(font
@@ -8884,6 +9343,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ef0f70f-3ea0-49f4-b858-75a2fe44b780")
 		)
@@ -8900,7 +9386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 203.2 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8946,6 +9432,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 203.2 142.24 0)
 			(effects
 				(font
@@ -9102,7 +9615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 55.88 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9156,6 +9669,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7452a557-2ee3-4a36-a576-0aa17e318330")
 		)
@@ -9172,7 +9712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 96.52 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9218,6 +9758,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 96.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 96.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 96.52 175.26 0)
 			(effects
 				(font
@@ -9295,6 +9862,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43c67060-6d02-4d6e-8d1e-79c8cc681160")
 		)
@@ -9311,7 +9905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 157.48 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9357,6 +9951,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 157.48 175.26 0)
 			(effects
 				(font
@@ -9426,6 +10047,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 259.08 40.64 0)
 			(effects
 				(font
@@ -9551,6 +10199,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9783,7 +10458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 137.16 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9829,6 +10504,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 137.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 137.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 137.16 175.26 0)
 			(effects
 				(font
@@ -9920,6 +10622,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PWR-SYM:+3V3_PCIE")
+		(at 142.24 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad1d1d8f-2ff5-4200-ab53-ed48de9caaab")
+		(property "Reference" "#PWR0524"
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_PCIE"
+			(at 142.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "450337b0-d66d-4522-a480-931a321bfc37")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
+					(reference "#PWR0524")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 66.04 0)
 		(mirror y)
@@ -9987,7 +10755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 172.72 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10041,6 +10809,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31eeca02-5bef-43da-a573-f266cddd1836")
 		)
@@ -10057,7 +10852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 233.68 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10111,6 +10906,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c649c08-d878-4102-8105-87851e19eed4")
 		)
@@ -10127,7 +10949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 162.56 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10173,6 +10995,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 162.56 142.24 0)
 			(effects
 				(font
@@ -10263,73 +11112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 104.14 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b812d654-4a1b-4579-ac0d-dcee488ffd82")
-		(property "Reference" "#PWR05004"
-			(at 104.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 104.14 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 104.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9d23aef-c304-4e47-8042-e6ada8d0d1e9")
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3124e188-7d93-47d9-82c9-cb765ca396d3/7b833941-1960-4f0f-b1c6-b995a9864b5e"
-					(reference "#PWR05004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 254 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10383,6 +11166,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31bac6a5-3675-4bf6-9043-2004879b5f39")
 		)
@@ -10399,7 +11209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 147.32 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10445,6 +11255,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 147.32 175.26 0)
 			(effects
 				(font
@@ -10536,7 +11373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 213.36 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10590,6 +11427,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5376f34e-43ce-495a-983f-5672e8e8b7e6")
 		)
@@ -10606,7 +11470,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 20.32 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10660,6 +11524,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 20.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 20.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 20.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27ce01a0-bf5f-420f-a37b-320d1b6e0501")
 		)
@@ -10676,7 +11567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 116.84 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10722,6 +11613,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -10800,6 +11718,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f06c8e1-ad8b-4d22-b623-e3fe28b31601")
 		)
@@ -10861,6 +11806,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 45.72 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 45.72 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 45.72 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 43.18 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11062,6 +12034,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -11218,7 +12217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DEV:C_SMALL_IO")
+		(lib_id "DEV:C_SMALL")
 		(at 243.84 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11264,6 +12263,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
 			(at 243.84 142.24 0)
 			(effects
 				(font

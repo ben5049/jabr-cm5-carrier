@@ -989,7 +989,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "TP",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1033,7 +1033,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../media/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1096,6 +1096,10 @@
     [
       "52a41b87-8503-44b7-832c-aae66b3851bb",
       "3V3 Regulators"
+    ],
+    [
+      "80b60915-5ccb-4842-b09a-a259b4f355b7",
+      "MIPI Connectors"
     ],
     [
       "313ad2b1-6281-4d61-a8a6-55e55641e36c",
